@@ -19,17 +19,16 @@
 <body>
 
 
-
   <header class="header" data-header>
     <div class="container">
       <a href="#" class="logo">
-        <img src="./assets/images/BRANCO - Sem Fundo.png" width="74" height="24" alt="Adex home" class="logo-light">
-        <img src="./assets/images/PRETO - Sem Fundo.png" width="74" height="24" alt="Adex home" class="logo-dark">
+        <img src="./assets/images/BRANCO - Sem Fundo.png" width="74" height="24" alt="Logo" class="logo-light">
+        <img src="./assets/images/PRETO - Sem Fundo.png" width="74" height="24" alt="Logo" class="logo-dark">
       </a>
       <nav class="navbar" data-navbar>
         <div class="navbar-top">
           <a href="#" class="logo">
-            <img src="./assets/images/PRETO - Sem Fundo.png" width="74" height="24" alt="Adex home">
+            <img src="./assets/images/BRANCO - Sem Fundo.png" width="74" height="24" alt="Logo">
           </a>
           <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
             <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
@@ -37,24 +36,23 @@
         </div>
         <ul class="navbar-list">
           <li>
-            <a href="#" class="navbar-link">Home</a>
+            <a href="#home" class="navbar-link">Home</a>
           </li>
           <li>
-            <a href="#" class="navbar-link">About</a>
+            <a href="#about" class="navbar-link">About</a>
           </li>
           <li>
-            <a href="#" class="navbar-link">Projects</a>
+            <a href="#projects" class="navbar-link">Projects</a>
           </li>
           <li>
-            <a href="#" class="navbar-link">Blog</a>
+            <a href="#blog" class="navbar-link">Blog</a>
           </li>
           <li>
-            <a href="#" class="navbar-link">Contact</a>
+            <a href="#contact" class="navbar-link">Contact</a>
           </li>
         </ul>
         <div class="wrapper">
-          <a href="mailto:info@email.com" class="contact-link">delabonetacoder@gmail.com</a>
-          <a href="tel:0000000000000" class="contact-link">+00 (00) 00000-0000</a>
+          <a href="mailto:delabonetacoder@email.com" class="contact-link">delabonetacoder@gmail.com</a>
         </div>
         <ul class="social-list">
           <li>
@@ -94,7 +92,7 @@
 
 
 
-  <main>
+  <main id="home">
     <article>
       <section class="section hero has-bg-image" aria-label="home"
         style="background-image: url('./assets/images/hero-bg.jpg')">
@@ -145,7 +143,7 @@
 
 
 
-      <section class="section service" aria-labelledby="service-label">
+      <section class="section service" aria-labelledby="service-label" id="projects">
         <div class="container">
           <p class="section-subtitle" id="service-label">Lorem ipsum?</p>
           <h2 class="h2 section-title">
@@ -223,7 +221,7 @@
 
 
 
-      <section class="about" aria-labelledby="about-label">
+      <section class="about" aria-labelledby="about-label" id="about">
         <div class="container">
           <figure class="about-banner">
             <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
@@ -386,7 +384,7 @@
 
 
 
-      <section class="section project" aria-labelledby="project-label">
+      <section class="section project" aria-labelledby="project-label" id="blog">
         <div class="container">
           <p class="section-subtitle" id="project-label">Lorem ipsum</p>
           <h2 class="h2 section-title">
@@ -495,11 +493,11 @@
 
 
 
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <div class="container grid-list">
       <div class="footer-brand">
         <a href="#" class="logo">
-          <img src="./assets/images/BRANCO - Sem Fundo.png" width="74" height="24" alt="Adex home">
+          <img src="./assets/images/BRANCO - Sem Fundo.png" width="74" height="24" alt="Logo">
         </a>
         <p class="footer-text">
           Alexandre Delaboneta &copy;<br> All rights reserved.
@@ -538,9 +536,6 @@
         </li>
         <li>
           <a href="mailto:info@email.com" class="footer-link">delabonetacoder@gmail.com</a>
-        </li>
-        <li>
-          <a href="tel:001234567890" class="footer-link">+00 (00) 00000-0000</a>
         </li>
       </ul>
       <ul class="footer-list">
